@@ -1,0 +1,37 @@
+{
+	"name": "testscript",
+	"displayName": "TestScript",
+	"description": "TestScript syntax highlighting.",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.62.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "testscript",
+				"aliases": [
+					"TestScript",
+					"testscript"
+				],
+				"extensions": [
+					".wh"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "testscript",
+				"scopeName": "source.wh",
+				"path": "./syntaxes/testscript.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"installedTimestamp": 1637211100125
+	}
+}
